@@ -13,6 +13,6 @@ project(Functions)
 set(CMAKE_CXX_STANDARD 14)
 
 FILE(GLOB_RECURSE SOURCES RELATIVE ${CMAKE_SOURCE_DIR} Functions/*.cpp)
-ADD_EXECUTABLE(Functions ${SOURCES})
+ADD_EXECUTABLE(Functions ${SOURCES} Utils/CharUtils.h Utils/CharUtils.cpp)
 
 # End Chapitre sur les fonctions
