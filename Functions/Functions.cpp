@@ -21,3 +21,26 @@ void Functions::bonjourMultiples() {
 
     cout << "C'est la derniere fois : Bonjour !" << endl << "J'ai enfin termine !" << endl;
 }
+
+float Functions::compute(const float number1, const float number2, const char ope) {
+    float result;
+
+    switch (ope) {
+        case '+' :
+            result = number1 + number2;
+            break;
+        case '-' :
+            result = number1 - number2;
+            break;
+        case '*' :
+            result = number1 * number2;
+            break;
+        case '/' :
+            result = number1 / number2;
+            break;
+        default :
+            result = number1 + number2;
+    }
+
+    return result;
+}

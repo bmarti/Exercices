@@ -9,6 +9,7 @@
 
 class Functions {
 public:
+
     // Constructors
     Functions(int nbBonjour);
 
@@ -17,6 +18,9 @@ public:
 
     int getNbBonjour() {return v_nbBonjour;}
     void setNbBonjour(int nbBonjour) {v_nbBonjour = nbBonjour;}
+
+    float compute(const float number1, const float number2, const char ope);
+
 private:
     int v_nbBonjour {1};
 };
