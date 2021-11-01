@@ -7,10 +7,22 @@
 using std::cout;
 using std::endl;
 
-static void separator(int Exercisenb) {
+static void separator(int ExerciseNb) {
     cout << "\n*****************" << endl;
-    cout << "Exercice " << Exercisenb << " : " << endl;
+    cout << "Exercice " << ExerciseNb << " : " << endl;
     cout << "*****************\n" << endl;
+}
+
+inline int fctInline_exercice33(char c, int n) {
+    int res;
+    if (c == 'a') {
+        res = n + c;
+    } else if (c == 's') {
+        res = n - c;
+    } else {
+        res = n * c;
+    }
+    return res;
 }
 
 int main(void) {
@@ -47,6 +59,18 @@ int main(void) {
     string dif = ", différence : ";
 
     cout << "Somme : " << somme << toAscii(const_cast<char*>(dif.c_str())) << difference << ", produit : " << produit << ", quotient : " << quotient << endl;
+
+    separator(33);
+
+    /**
+     * Exercice 33
+     */
+
+    int n = 150, p;
+    char c = 's';
+    p = fctInline_exercice33(c, n);
+
+    cout << "fctInline_exercice33(\'" << c << "\', " << n << ") vaut : " << p << " car \'s\' vaut : " << (int) c << "." << endl;
 
     return 0;
 }
