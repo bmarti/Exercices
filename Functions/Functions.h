@@ -21,6 +21,9 @@ public:
 
     float compute(const float number1, const float number2, const char ope);
 
+    void formalismeTableau();
+    void formalismePointeur();
+
 private:
     int v_nbBonjour {1};
 };

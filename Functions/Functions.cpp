@@ -44,3 +44,11 @@ float Functions::compute(const float number1, const float number2, const char op
 
     return result;
 }
+
+void formalismeTableau() {
+
+}
+
+void formalismePointeur() {
+
+}
