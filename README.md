@@ -1,1 +1,21 @@
 #Exercices de C++
+
+- [x] Types de base
+- [x] Instructions de contrôle
+- [x] Les fonctions 
+- [x] Les tableaux et pointeurs
+- [x] Les classes, constructeurs et destructeurs
+- [ ] Les structures
+- [ ] Propriétés des fonctions membres
+- [ ] Les fonctions amies
+- [ ] Surdéfinition d'opérations
+- [ ] Héritage
+- [ ] Héritage multiple
+- [ ] Fonctions virtuelles
+- [ ] Flux d'entrée et de sortie
+- [ ] Les templates variadiques
+- [ ] La gestion des exceptions
+- [x] Les pointeurs intelligents (C++11/C++14)
+- [ ] La sémantique de déplacement (C++11/C++14)
+- [ ] La déduction d'arguments de templates (C++17)
+- [ ] La réflexion (C++20)

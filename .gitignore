@@ -35,3 +35,11 @@
 cmake-build-debug/
 
 Additionner_Chiffres_D_Un_Nombre/.idea/
+
+.vscode/
+
+build/
+
+CMakeCache.txt
+
+CMakeFiles/cmake.check_cache

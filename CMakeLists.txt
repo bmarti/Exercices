@@ -8,11 +8,11 @@ cmake_minimum_required(VERSION 3.17)
 # For each subproject
 
 # Chapitre sur les fonctions
-project(Functions)
+project(Chapters)
 
 set(CMAKE_CXX_STANDARD 14)
 
-FILE(GLOB_RECURSE SOURCES RELATIVE ${CMAKE_SOURCE_DIR} Functions/*.cpp)
-ADD_EXECUTABLE(Functions ${SOURCES} Utils/CharUtils.h Utils/CharUtils.cpp)
+FILE(GLOB_RECURSE SOURCES RELATIVE ${CMAKE_SOURCE_DIR} Main.cpp Chapters/*.cpp)
+ADD_EXECUTABLE(Exercises ${SOURCES} Utils/CharUtils.h Utils/CharUtils.cpp)
 
 # End Chapitre sur les fonctions
