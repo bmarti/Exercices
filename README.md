@@ -1,4 +1,4 @@
-#Exercices de C++
+# Programme d'exercices de C++
 
 - [x] Types de base
 - [x] Instructions de contrôle
