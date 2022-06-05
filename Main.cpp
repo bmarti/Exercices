@@ -9,7 +9,7 @@
 using std::cout;
 using std::endl;
 
-#define LOG(x) = cout << x << endl;
+#define LOG(x) cout << x << endl;
 
 /**
  * @details Insère une séparation et annonce le numéro de l'exercice suivant dans la console
@@ -17,9 +17,15 @@ using std::endl;
  * @param ExerciseNb Numéro de l'exercice à annoncer
  */
 static void separator(int ExerciseNb) {
-    cout << "\n*****************" << endl;
+    LOG("\n*****************");
     cout << "Exercice " << ExerciseNb << " : " << endl;
-    cout << "*****************\n" << endl;
+    LOG("*****************\n");
+}
+
+static void separator(std::string phrase) {
+    LOG("\n*****************");
+    cout << phrase << " : " << endl;
+    LOG("*****************\n");
 }
 
 /** @details Exercice 31 - Création d'une fonction en ligne effectuant une opération selon les paramètres en entrée.
@@ -118,7 +124,7 @@ int main() {
     separator(36);
 
     /** Exercice 36
-     * Copier les nombres positifs inclues dans un tableau dans un autre tableau, compléter par des 0 sinon.
+     *  Copier les nombres positifs inclues dans un tableau dans un autre tableau, compléter par des 0 sinon.
      */
     {
         constexpr int NB_VALEURS = 5;
@@ -128,6 +134,18 @@ int main() {
         for (int i = 0; i < NB_VALEURS; i++) std::cin >> tabRef[i];
 
         pointer.onlyPos(tabRef, tabCopie, NB_VALEURS);
+    }
+
+    separator("Exercice sur les fonctions virtuelles");
+
+    /**
+     * Exercice sur les fonctions virtuelles
+     * 
+     */
+    {
+
+
+
     }
 
 
